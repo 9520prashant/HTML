@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting</title>
+    <style>
+        blockquote {
+            margin: 0;
+        }
+
+        blockquote p {
+            padding: 15px;
+            background: #eee;
+            border-radius: 5px;
+        }
+
+        blockquote p::before {
+            content: '\201C';
+        }
+
+        blockquote p::after {
+            content: '\201D';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Welcome to Our Website</h1>
+    <!-- <b></b> Tag Use to Bold the text-->
+    <!--<i></i> Tag Use to Italic the text-->
+    <!--<small></small> Tag Use to Small the text-->
+    <!--<u></u> Tag Use to UnderLine the text -->
+    <!-- <em> to denote stress emphasis
+     <b> to draw attention to text
+     <mark> to mark key words or phrases
+     <strong> to indicate that text has strong importance
+     <cite> to mark the titles of books or other publications
+     <i> to denote technical terms, transliterations, thoughts, or names of vessels in Western texts -->
+    <!--<sup></sup> Tag Use in Super Script-->
+    <!--<sub></sub> Tag Use in Sub Script-->
+
+    <p>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. Repudiandae ipsam saepe cupiditate.</p>
+    <p>Lorem ipsum dolor sit amet <i>consectetur</i> adipisicing elit. Illo distinctio repudiandae voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet, <small>consectetur</small> adipisicing elit. Iure aspernatur obcaecati mollitia?</p>
+    <p>Lorem ipsum dolor sit amet,<u>consectetur</u> adipisicing elit. Fugiat ea magnam optio!</p>
+    <p>Lorem ipsum dolor sit amet, <mark>consectetur</mark> adipisicing elit. Labore omnis deserunt recusandae?</p>
+    <p>Lorem ipsum, dolor sit amet <strong> elit.</strong> a Culpa possimus quia voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur,<cite> cadipisicing</cite> elit. Velit saepe possimus molestiae?</p>
+    <p>(a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</p>
+    <p>H<sub>2</sub>0</p>
+
+
+    <!-- Quotation element -->
+    <!-- <q></q> is a Quotaion Tag for Own Quote -->
+    <q>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</q>
+
+    <!-- <blockquote></blockquote> is a Quotation Tag for Other Quote -->
+    <blockquote cite="https://www.google.com">
+         <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+    </blockquote>
+    
+    <!-- <address></address> Tag is used to Show the address -->
+    <address>
+        Sakoti tanda Meerut
+    </address>  <br>
+
+    <abbr title="Programming By Prashant">PBP</abbr>
+
+
+    <!-- <cite></cite> is a Tag for Write the Name Like: BOOK AUTHOR NAME etc..  -->
+    <p>Rich Dad, Poor Dad</p><cite>Rechard</cite>
+
+</body>
+
+</html>
