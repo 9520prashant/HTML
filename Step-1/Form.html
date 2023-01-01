@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        body {
+            background: url('BG.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: blanchedalmond;
+            margin: 0px;
+            padding: 0px;
+        }
+        form input{
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to DO-Code</h1>
+    <h2>Contact Us</h2>
+    <form action="https://www.google.com">
+        <label for="Username">Name:</label>
+        <input type="text" id="Username" placeholder="Name"><br><br>
+        <label for="E-mail">E-mail:</label>
+        <input type="email" id="E-mail" placeholder="E-mail"><br><br>
+        <label for="Contact">Contact No:</label>
+        <input type="text" id="Contact" placeholder="Contact No"><br><br>
+        <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <label for="DOB">DOB:</label>
+        <input type="date" id="DOB" placeholder="1-1-1999"><br><br>
+        <div>
+            Range: 1<input type="radio" name="MyGender"> 2<input type="radio" name="MyGender"> 3<input
+                type="radio" name="MyGender">
+        </div><br>
+        <label for="TextArea">Enter Message:</label><br>
+        <textarea name="TextArea" id="TextArea" cols="30" rows="5"></textarea><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+
+</html>
